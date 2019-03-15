@@ -10,7 +10,7 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
-button {
+input[type=button], button {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
@@ -47,6 +47,11 @@ img.avatar {
 span.psw {
   float: right;
   padding-top: 16px;
+}
+
+.forgotPassword span:hover, .redirectToLogin span:hover {
+  cursor: pointer;
+  color: #336699;
 }
 
 /* Change styles for span and cancel button on extra small screens */
